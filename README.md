@@ -8,4 +8,14 @@ The objective of the run_analysis.R script is to perform all five of the followi
 
 The first step clears your Global enviroment via the rm() function
 
-Next we load the plyr and dply packages which will come 
+Next we load the plyr, dply, and data.table packages which will come into play later
+
+We'll assign the file paths to the Main Dir, testDir, and trainDir variables.
+
+Load the data into data frames
+
+Change the column names from V1- V561 using the "Features" variable, which was derived from the features.txt file
+
+
+
+
