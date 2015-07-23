@@ -19,11 +19,6 @@ library(dplyr)
 # This code assumes that you've already downloaded and extracted your data
 # to your current working directory under the "UCI HAR Dataset" folder
 
-#temp <- tempfile()
-#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",temp)
-
-#unzip(temp, list = TRUE) #This provides the list of variables and I choose the ones that are applicable for this data set
-
 # Load data.table for fast subsetting, grouping, and updating
 library(data.table)
 
