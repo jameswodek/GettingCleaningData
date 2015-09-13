@@ -16,6 +16,12 @@ Load the data into data frames
 
 Change the column names from V1- V561 using the "Features" variable, which was derived from the features.txt file
 
+Now, the code will join the two datasets (Xtrain and Xtest)
 
+Once joined, the next step is part of the third assignment, which is to label our dataset with descriptive names
+
+After names are appended/renamed, now the arithmetic takes place as well as subsetting the data
+
+Once subsetted along with the means & standardeviations subsetted, this data is then exported into the StatsTD.txt file
 
 
